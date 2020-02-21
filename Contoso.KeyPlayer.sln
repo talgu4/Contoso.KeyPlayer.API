@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.KeyPlayer.API", "Contoso.KeyPlayer\Contoso.KeyPlayer.API.csproj", "{B3BAC444-D8D4-4155-89BC-8EDEB2F9F374}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Infrastracture", "1.Infrastracture", "{BEF03796-28CF-4B52-9BBE-F8F99BEE509F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Common", "2.Common", "{0EBA5A12-B404-49C8-B6AA-B17231558693}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Application", "3.Application", "{BC48379C-758C-49EB-85D6-6A8609BAFDAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.KeyPlayer.DB", "Contoso.KeyPlayer.DB\Contoso.KeyPlayer.DB.csproj", "{89BBCA52-2ED2-48F5-A967-2A7454C217C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.KeyPlayer.Common", "Contoso.KeyPlayer.Common\Contoso.KeyPlayer.Common.csproj", "{F3E221FC-A1AE-4E1B-B683-CB19ABAEEB0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.KeyPlayer.Services", "Contoso.KeyPlayer.Services\Contoso.KeyPlayer.Services.csproj", "{54E79EA8-DE9E-40F7-BCEF-D25E6E7275AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3BAC444-D8D4-4155-89BC-8EDEB2F9F374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BAC444-D8D4-4155-89BC-8EDEB2F9F374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BAC444-D8D4-4155-89BC-8EDEB2F9F374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BAC444-D8D4-4155-89BC-8EDEB2F9F374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89BBCA52-2ED2-48F5-A967-2A7454C217C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BBCA52-2ED2-48F5-A967-2A7454C217C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BBCA52-2ED2-48F5-A967-2A7454C217C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BBCA52-2ED2-48F5-A967-2A7454C217C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E221FC-A1AE-4E1B-B683-CB19ABAEEB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E221FC-A1AE-4E1B-B683-CB19ABAEEB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E221FC-A1AE-4E1B-B683-CB19ABAEEB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E221FC-A1AE-4E1B-B683-CB19ABAEEB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E79EA8-DE9E-40F7-BCEF-D25E6E7275AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E79EA8-DE9E-40F7-BCEF-D25E6E7275AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E79EA8-DE9E-40F7-BCEF-D25E6E7275AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E79EA8-DE9E-40F7-BCEF-D25E6E7275AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3BAC444-D8D4-4155-89BC-8EDEB2F9F374} = {BC48379C-758C-49EB-85D6-6A8609BAFDAC}
+		{89BBCA52-2ED2-48F5-A967-2A7454C217C1} = {BEF03796-28CF-4B52-9BBE-F8F99BEE509F}
+		{F3E221FC-A1AE-4E1B-B683-CB19ABAEEB0E} = {0EBA5A12-B404-49C8-B6AA-B17231558693}
+		{54E79EA8-DE9E-40F7-BCEF-D25E6E7275AE} = {BC48379C-758C-49EB-85D6-6A8609BAFDAC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A95842D2-467B-4E3E-8418-9476C5562455}
+	EndGlobalSection
+EndGlobal
